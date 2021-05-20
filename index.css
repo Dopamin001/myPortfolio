@@ -1,0 +1,48 @@
+.col {
+	border-style: solid;
+	border-color: blue;
+}
+
+.row {
+	border-style: double;
+	border-color: red;
+}
+
+.header {
+	background: yellow;
+}
+
+.header2 {
+	background-color: red;
+}
+
+.thetitle {
+	color: 	#696969;
+	font-size: 2vw;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Parisienne', cursive;
+	text-decoration: none;
+	text-shadow: 2px 2px 50px orange; /*roter hintergrundschatten*/
+	text-align: center;	
+}
+
+.thetitle:hover {
+	font-size: 2.04vw;
+	text-shadow: 3px 3px 10px blue;
+	text-decoration: none;
+	transition: .9s ease;
+	color: black;
+}
+
+.nav-bar {
+	color: white;
+	font-size: 80%;
+	margin-top: 7px;
+}
+
+.nav-bar:hover {
+	font-size: 85%;
+	transition: .4s ease;
+	text-decoration: none;
+	text-shadow: 3px 3px 10px yellow;
+}
