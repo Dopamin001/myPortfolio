@@ -19,36 +19,29 @@
 }
 
 /*Navigations-menü*/
-.navigation a {
+.navigation > a{
 	text-decoration: none;
 	text-align: center;
 }
 
-.navigation > p {
-	margin-left: 50px;
-}
 
 .nav-bar {
-	color: #E0E0E0;
-	font-size: 1.2rem;
+	color: white;
+	font-size: 1.4rem;
 	margin-top: 9px;
 	font-family: 'Fredoka One', cursive;
 	
 }
 
 .nav-bar:hover {
-	font-size: 130%;
-	color: black;
+	font-size: 150%;
+	color: white;
 	transition: .4s ease;
 	text-decoration: none;
 	text-shadow: 3px 3px 10px grey;
 
 }
 
-.nav-bar:active {
-	color: white;
-
-}
 
 /*develop Picture*/
 .media {
@@ -118,7 +111,6 @@ img {
 	text-align: center;
 	font-family: 'Amatic SC', cursive;
 	font-size: 130%;
-	/*border-bottom: 2px solid black;*/
 }
 
 .thefooter > p {
