@@ -1,0 +1,150 @@
+body {
+	background-image: url(images/aboutme.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;;	
+}
+
+aside {
+	padding-top: 95px;
+}
+
+.maintext {
+	text-align: center;
+	font-size: 1.7em;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	margin-bottom: 0px
+}
+
+.linkedin {
+	margin-left: 325px; 
+	margin-top: 1.5px;
+}
+
+aside > .container {
+	margin-left: 500px;
+}
+
+.navigation > a{
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.nav-bar {
+	color: white;
+	font-size: 1.7rem;
+	margin-top: 9px;
+	font-family: 'Fredoka One', cursive;
+	border-bottom: 1px solid black;
+	
+}
+
+.nav-bar:hover {
+	font-size: 190%;
+	color: white;
+	transition: .4s ease;
+	text-shadow: 3px 3px 10px grey;
+	text-decoration: none;
+}
+
+.linkedin:hover {
+	text-shadow: 3px 3px 10px black;
+	text-decoration: none;
+	transition: .5s ease;
+	color: black;
+}
+
+.emailicon:hover {
+	text-shadow: 3px 3px 10px black;
+	text-decoration: none;
+	transition: .5s ease;
+	color: black;
+}
+
+
+
+
+.container-fluid > .row {
+	margin-left: 0px; 
+	margin-right: 800px; 
+	padding-right: 400px;
+}
+
+@media (max-width: 1800px) {
+	.container-fluid > .row {
+		margin-left: 0px; 
+		margin-right: 400px; 
+		padding-right: 200px;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.container-fluid > .row {
+		margin-left: 0px; 
+		margin-right: 0px; 
+		padding-right: 200px;
+	}
+}
+
+@media (max-width: 1900px) {
+	aside > .container {
+	margin-left: 300px;
+	}
+}
+
+@media (max-width: 1900px) {
+	aside > .container {
+	margin-left: 300px;
+	}
+}
+
+@media (max-width: 1500px) {
+	aside > .container {
+	margin-left: 100px;
+	}
+}
+
+@media (max-width: 1000px) {
+	aside > .container {
+	margin-left: 0px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.linkedin {
+		margin-left: 270px; 
+		margin-top: 1.5px
+	}
+}
+
+@media (max-width: 1024px) {
+	.linkedin {
+		margin-left: 220px; 
+		margin-top: 1.5px
+	}
+}
+
+@media (max-width: 768px) {
+	.linkedin {
+		margin-left: 150px; 
+		margin-top: 1.5px
+	}
+}
+
+@media (max-width: 425px) {
+	.linkedin {
+		margin-left: 70px; 
+		margin-top: 1.5px
+	}
+}
+
+@media (max-width: 320px) {
+	.linkedin {
+		margin-left: 30px; 
+		margin-top: 1.5px
+	}
+}

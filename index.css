@@ -54,11 +54,13 @@
     float: left;
 }
 .media:hover div {
-	opacity: 0.8;
+	opacity: 0.9;
     transition: all 0.8s ease-in;
     text-decoration: none;
     font-family: 'Amatic SC', cursive;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+
 }
 .media div {
 	position: absolute;
@@ -75,7 +77,7 @@
 	
 	text-decoration: none;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     margin: auto;
     left: 0;
