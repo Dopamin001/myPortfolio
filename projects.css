@@ -22,11 +22,50 @@
 
 .nav-bar:hover {
 	font-size: 170%;
-	color: white;
+	color: black;
 	transition: .4s ease;
 	text-decoration: none;
 	text-shadow: 3px 3px 10px grey;
 
+}
+
+img {
+	border-radius: 5px;
+}
+
+.yogaimage {
+	padding-top: 10px;
+	padding-bottom: 590px;
+	background-image: url(images/yogapic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+h3 {
+	font-family: 'Cabin Sketch', cursive;
+}
+
+h3 + p  {
+	font-style: italic;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+
+h2 {
+	color: white;
+	background-color: black;
+	margin-right: 200px;
+	margin-left: 200px;
+	border-radius: 20px;
+
+}
+
+.pictext {
+	color: black;
+	font-size: 200%;
+	background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
+	border-radius: 20px;
 }
 
 .thefooter {
