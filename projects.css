@@ -31,6 +31,14 @@
 
 img {
 	border-radius: 5px;
+	max-width: 100%;
+	height: auto;
+}
+
+section {
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-top: 15px;
 }
 
 .yogaimage {
@@ -40,6 +48,10 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
+}
+
+.toshow {
+	opacity: 0;
 }
 
 h3 {
@@ -55,8 +67,8 @@ h3 + p  {
 h2 {
 	color: white;
 	background-color: black;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 180px;
+	margin-left: 180px;
 	border-radius: 20px;
 
 }
@@ -64,6 +76,7 @@ h2 {
 .pictext {
 	color: black;
 	font-size: 200%;
+	font-family: 'Merriweather Sans', sans-serif;
 	background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
 	border-radius: 20px;
 }
@@ -100,5 +113,253 @@ h2 {
 		margin-left: 0px; 
 		margin-right: 0px; 
 		padding-right: 200px;
+	}
+}
+
+:root {
+	--background: rgba(22, 144, 70, .85);
+}
+
+header{
+	background: var(--background);
+	text-align: center;
+	position: fixed;
+	font-family: 'Fredoka One', cursive;
+	z-index: 999;
+	width: 100%;
+}
+
+nav {
+	position: absolute;
+	text-align: left;
+	top: 100%;
+	left: 0;
+	background: var(--background);
+	width: 100%;
+	transform: scale(1, 0);
+	transform-origin: top;
+	transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+	color: #000;
+
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.nav-toggle-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 1em;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	display: block;
+	background: white;
+	height: 2px;
+	width: 2em;
+	border-radius: 2px;
+	position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+	content: '';
+	position: absolute;
+}
+
+.nav-toggle-label span::before {
+	bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+	top: 7px;
+}
+
+
+.nav-toggle:checked ~ nav {
+	transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+	opacity: 1;
+	transition: opacity 250ms ease-in-out 150ms;
+}
+
+@media screen and (min-width: 1024px) {
+	.nav-toggle-label {
+		display: none;
+	}
+
+	header {
+		display: grid;
+		grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+	}
+
+	.logo {
+		grid-column: 2 / 3;
+	}
+
+	nav {
+		all: unset;
+		grid-column: 3 / 4;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	nav li {
+		margin-left: 3em;
+		margin-bottom: 0;
+	}
+
+	nav a {
+		opacity: 1;
+		position: relative;
+	}
+
+	nav a::before {
+		content: '';
+		display: block;
+		height: 5px;
+		background: black;
+		position: absolute;
+		bottom: -.75em;
+		left: 0;
+		right: 0;
+		transform: scale(0, 1);
+		transform-origin: left;
+		transition: transform ease-in-out 250ms;
+	}
+
+	nav a:hover::before {
+		transform: scale(1,1);
+	}
+}
+
+@media (max-width: 1024px){
+
+	.yogaimage {
+		padding-top: 10px;
+		padding-bottom: 350px;
+	}
+
+	h2 {
+		color: white;
+		font-size: 90%;
+		background-color: black;
+		margin-right: 100px;
+		margin-left: 100px;
+		border-radius: 20px;
+
+	}
+
+	.pictext {
+		color: black;
+		font-size: 133%;
+		background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
+		border-radius: 20px;*/
+
+	}
+
+}
+
+
+@media(max-width: 768px) {
+
+	section {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.yogaimage {
+		padding-top: 10px;
+		padding-bottom: 250px;
+	}
+
+	h2 {
+		color: white;
+		background-color: black;
+		margin-right: 1px;
+		margin-left: 1px;
+		border-radius: 20px;
+
+	}
+
+	.pictext {
+		color: black;
+		font-size: 120%;
+		background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
+		border-radius: 20px;
+
+	}
+
+}
+
+@media(max-width: 425px) {
+	section {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.yogaimage {
+		padding-top: 10px;
+		padding-bottom: 150px;
+	}
+
+	h2 {
+		color: white;
+		background-color: black;
+		margin-right: 1px;
+		margin-left: 1px;
+		border-radius: 20px;
+
+	}
+
+	.pictext {
+		color: black;
+		font-size: 120%;
+		background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
+		border-radius: 20px;
+
+	}
+
+	.container {
+		padding-right: 1px;
+		padding-left: 1px;
 	}
 }

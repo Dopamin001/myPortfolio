@@ -9,42 +9,30 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
 	<title>My Projects</title>
 </head>
 <body>
-	<header>
+	<div>
 		<h1 class="thetitle">
 			My Projects
 		</h1>
+	</div>
+	<header>
+		<h1 class="logo">My Projects</h1>
+		<input type="checkbox" id= "nav-toggle" class="nav-toggle">
+		<nav>
+			<ul>
+				<li><a href="index.html">Main</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="blog.html">My Blog</a></li>
+			</ul>
+		</nav>
+		<label for="nav-toggle" class="nav-toggle-label"><span></span></label>
 	</header>
-	<nav>
-		<div class="container-fluid">
-			<div class="row">
-	    		<div class="col">
-	    			<div class="navigation" style="text-decoration: none;">
-	    		 		<a href="index.html"><p class="nav-bar"> Main </p></a>
-	    			</div>
-	    		</div>
-	   			 <div class="col">
-	    			<div class="navigation">
-	    				 <a href="aboutme.html"><p class="nav-bar"> About me </p></a>
-					</div>
-	   			 </div>
-	    		<div class="col">
-	    			<div class="navigation">
-	    				 <a href="projects.html"><p class="nav-bar"> Projects </p></a>
-	    			</div>
-	    		</div>
-	    			<div class="col">
-	    				<div class="navigation">
-	    				 <a href="blog.html"><p class="nav-bar"> Blog </p></a>
-	    				</div>
-	    			</div>
-	  		</div>
-		</div>
-	</nav>
-	<section>
-		<div class="container" style="padding-left: 150px; padding-right: 150px;">
+	<section style="margin-top: 55px">
+		<div class="container">
 			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 				  <div class="carousel-indicators">
 				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -69,7 +57,7 @@
 				    <div class="carousel-item">
 				      <img src="images/webcompany3.jpg" class="d-block w-100" alt="Woman with a pen between her teeth and in front of a Laptop">
 				      <div class="carousel-caption d-none d-md-block">
-				        <h2 style="margin-right: 110px; margin-left: 110px">You wanna work for us?</h2>
+				        <h2 class="tohide">You wanna work for us?</h2>
 				        <p class="pictext">Just send us a message and your CV by E-mail</p>
 				      </div>
 				    </div>
@@ -86,8 +74,11 @@
 			<div class="linkedbutton" style="text-align: center; padding-top: 10px; padding-bottom: 30px;">
 				<a href="#" target="_blank"><button type="button" class="btn btn-primary btn-lg">Check out this Website</button></a>
 			</div>
+			<!-- <div class="linkedbuttonsmall" style="text-align: center; padding-top: 10px; padding-bottom: 30px; opacity: 0;">
+				<a href="#" target="_blank"><button type="button" class="btn btn-primary btn-sm">Check out this Website</button></a>
+			</div> -->
 		</div>
-		<div class="container" style="padding-left: 150px; padding-right: 150px;">
+		<div class="container">
 			<div class="2Image" style="text-align: center">
 				<div class="yogaimage">
 					<div class="row justify-content-md-center" >
