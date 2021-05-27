@@ -1,3 +1,7 @@
+body {
+	background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(149,156,57,0.008823597798494398) 0%, rgba(255,106,0,0.7427171552214635) 100%);
+}
+
 .thetitle {
 	text-align: center;
 	font-style: bold;
@@ -38,20 +42,22 @@ img {
 section {
 	padding-right: 150px;
 	padding-left: 150px;
+	margin-left: 250px;
+	margin-right: 250px;
 	padding-top: 15px;
 }
 
 .yogaimage {
 	padding-top: 10px;
-	padding-bottom: 590px;
+	padding-bottom: 650px;
 	background-image: url(images/yogapic.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 5px;
 }
 
-.toshow {
-	opacity: 0;
+.hiddenclass {
+	display: none;
 }
 
 h3 {
@@ -61,6 +67,7 @@ h3 {
 h3 + p  {
 	font-style: italic;
 	font-family: 'Cabin Sketch', cursive;
+	font-size: 180%;
 }
 
 
@@ -271,11 +278,19 @@ nav a:hover {
 	}
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1440px){
+
+	section {
+	padding-right: 50px;
+	padding-left: 50px;
+	
+	padding-top: 15px;
+	}
+
 
 	.yogaimage {
 		padding-top: 10px;
-		padding-bottom: 350px;
+		padding-bottom: 450px;
 	}
 
 	h2 {
@@ -299,16 +314,53 @@ nav a:hover {
 }
 
 
-@media(max-width: 768px) {
+
+@media (max-width: 1024px){
 
 	section {
-		padding-left: 100px;
-		padding-right: 100px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 15px;
 	}
 
 	.yogaimage {
 		padding-top: 10px;
-		padding-bottom: 250px;
+		padding-bottom: 220px;
+	}
+
+	h2 {
+		color: white;
+		font-size: 90%;
+		background-color: black;
+		margin-right: 50px;
+		margin-left: 50px;
+		border-radius: 20px;
+
+	}
+
+	.pictext {
+		color: black;
+		font-size: 133%;
+		background: linear-gradient(to right, rgb(0, 179, 255, 0.7), rgb(11, 168, 142,0.7));
+		border-radius: 20px;*/
+
+	}
+
+}
+
+
+@media(max-width: 768px) {
+
+	section {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.yogaimage {
+		padding-top: 10px;
+		padding-bottom: 350px;
 	}
 
 	h2 {
@@ -362,4 +414,14 @@ nav a:hover {
 		padding-right: 1px;
 		padding-left: 1px;
 	}
+
+	.hiddenclass {
+		display: block;
+		text-align: center;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h3 + p  {
+	font-size: 100%;
+}
 }
