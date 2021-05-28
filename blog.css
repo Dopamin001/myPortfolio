@@ -1,18 +1,55 @@
-.maintext, .secondtext, .container-fluid {
-	display: flex;
+.Überschrift {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 3.0vw;
+	font-style: bold;
+	border: 2px solid black;
 }
 
+h2 {
+	border-bottom: 1px solid black;
+	margin-left: 400px;
+    margin-right: 400px;
+}
+
+.textobenlinks {
+	margin-top: 50px;
+}
+
+.zweitertext {
+	margin-top: 30px;
+}
+
+.textunten {
+	margin-top: 10px;
+}
+
+.Haupttext {
+	font-family: 'Indie Flower', cursive;
+	font-size: 1.5vw;
+	font-style: bold;
+}
+
+@media screen and (min-width: 768px) {
+	.maintext, .secondtext, .container-fluid {
+		display: flex;
+	}
+}
+
+
 .maintext > p + img {
-	width: 400px;
+	width: 300px;
 	height: 100%;
+	margin-top: 50px;
 }
 
 .secondtext > img {
 	width: 500px;
 	height: 100%;
+	margin-top: 30px;
 }
 
-.blueeye > img {
+.blueeye > div > img {
 	width: 500px;
 	height: 100%;
 }
@@ -31,6 +68,33 @@
 	text-align: center;
 	border: 1px solid black;
 }
+
+.container-fluid {
+	justify-content: center;
+}
+
+.bild2 {
+	
+	border-radius: 10px;
+}
+
+.bild3 {
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+.bild4 {
+	border-radius: 10px;
+}
+
+
+.bild5 {
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+
+/*Nav-bar*/
 
 :root {
 	--background: rgba(22, 144, 70, .85);
@@ -186,3 +250,390 @@ nav a:hover {
 		transform: scale(1,1);
 	}
 }
+
+@media(max-width: 1024px) {
+	h2 {
+		border-bottom: 1px solid black;
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+	
+	.textobenlinks {
+		margin-top: 50px;
+	}
+	
+	.zweitertext {
+		margin-top: 30px;
+	}
+	
+	.textunten {
+		margin-top: 10px;
+	}
+
+	.Überschrift {
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 4.5vw;
+		font-style: bold;
+		border: 2px solid black;
+	}
+	
+	.Haupttext {
+		font-family: 'Indie Flower', cursive;
+		font-size: 2vw;
+		font-style: bold;
+	}
+	
+	.maintext > p + img {
+		width: 200px;
+		height: 100%;
+		margin-top: 60px;
+	}
+	
+	.secondtext > img {
+		width: 400px;
+		height: 100%;
+		margin-top: 30px;
+	}
+	
+	.blueeye > div > img {
+		width: 400px;
+		height: 100%;
+	}
+	
+	.thirdtext > div > img {
+		width: 400px;
+		height: 100%;
+	}
+	.fourthtext > div > img {
+		width: 400px;
+		height: 100%;
+	}
+	
+	.container {
+		margin-top: 100px;
+		text-align: center;
+		border: 1px solid black;
+	}
+	
+	.container-fluid {
+		justify-content: center;
+	}
+	
+	.bild2 {
+		
+		border-radius: 10px;
+	}
+	
+	.bild3 {
+		border-radius: 10px;
+		margin-left: 50px;
+	}
+	
+	.bild4 {
+		border-radius: 10px;
+	}
+	
+	
+	.bild5 {
+		border-radius: 10px;
+		margin-left: 50px;
+	}
+}
+
+@media(max-width: 768px) {
+	h2 {
+		border-bottom: 1px solid black;
+		margin-left: 180px;
+		margin-right: 180px;
+	}
+	
+	.textobenlinks {
+		margin-top: 50px;
+	}
+	
+	.zweitertext {
+		margin-top: 30px;
+	}
+	
+	.textunten {
+		margin-top: 10px;
+	}
+	
+	.Überschrift {
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 5.5vw;
+		font-style: bold;
+		border: 2px solid black;
+	}
+	
+	.Haupttext {
+		font-family: 'Indie Flower', cursive;
+		font-size: 2.5vw;
+		font-style: bold;
+	}
+	
+	.maintext > p + img {
+		width: 170px;
+		height: 100%;
+		margin-top: 60px;
+		border-radius: 10px;
+	}
+	
+	.secondtext {
+		display: block;
+	}
+
+	.secondtext > img {
+		width: 330px;
+		height: 100%;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+	
+	.blueeye > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	
+	.thirdtext > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	.fourthtext > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	
+	.container {
+		margin-top: 100px;
+		text-align: center;
+		border: 1px solid black;
+	}
+	
+	.container-fluid {
+		justify-content: center;
+	}
+	
+	.bild2 {
+		
+		border-radius: 10px;
+	}
+	
+	.bild3 {
+		border-radius: 10px;
+		margin-left: 20px;
+	}
+	
+	.bild4 {
+		border-radius: 10px;
+	}
+	
+	
+	.bild5 {
+		border-radius: 10px;
+		
+		margin-left: 20px;
+
+	}
+}
+
+@media(max-width: 425px) {
+	h2 {
+		border-bottom: 1px solid black;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	
+	.textobenlinks {
+		margin-top: 20px;
+	}
+	
+	.zweitertext {
+		margin-top: 15px;
+	}
+	
+	.textunten {
+		margin-top: 10px;
+	}
+	
+	.Überschrift {
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 6vw;
+		font-style: bold;
+		border: 2px solid black;
+	}
+	
+	.Haupttext {
+		font-family: 'Indie Flower', cursive;
+		font-size: 3.4vw;
+		font-style: bold;
+	}
+	
+	.maintext > p + img {
+		width: 170px;
+		height: 100%;
+		margin-top: 5px;
+		border-radius: 10px;
+	}
+	
+	.secondtext {
+		display: block;
+	}
+
+	.secondtext > img {
+		width: 330px;
+		height: 100%;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+	
+	.blueeye > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	
+	.thirdtext > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	.fourthtext > div > img {
+		width: 330px;
+		height: 100%;
+	}
+	
+	.container {
+		margin-top: 100px;
+		text-align: center;
+		border: 1px solid black;
+	}
+	
+	.container-fluid {
+		justify-content: center;
+	}
+	
+	.bild2 {
+		
+		border-radius: 10px;
+	}
+	
+	.bild3 {
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	
+	.bild4 {
+		border-radius: 10px;
+	}
+	
+	
+	.bild5 {
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 320px) {
+	h2 {
+		border-bottom: 1px solid black;
+		margin-left: 10px;
+		margin-right: 10px;
+		text-align: center;
+	}
+	
+	.textobenlinks {
+		margin-top: 20px;
+	}
+	
+	.zweitertext {
+		margin-top: 15px;
+	}
+	
+	.textunten {
+		margin-top: 10px;
+	}
+	
+	.Überschrift {
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 7vw;
+		font-style: bold;
+		border: 2px solid black;
+	}
+	
+	.Haupttext {
+		font-family: 'Indie Flower', cursive;
+		font-size: 4vw;
+		font-style: bold;
+	}
+	
+	.maintext > p + img {
+		width: 170px;
+		height: 100%;
+		margin-top: 5px;
+		border-radius: 10px;
+	}
+	
+	.secondtext {
+		display: block;
+	}
+
+	.secondtext > img {
+		width: 250px;
+		height: 100%;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+	
+	.blueeye > div > img {
+		width: 250px;
+		height: 100%;
+	}
+	
+	.thirdtext > div > img {
+		width: 250px;
+		height: 100%;
+	}
+	.fourthtext > div > img {
+		width: 250px;
+		height: 100%;
+	}
+	
+	.container {
+		margin-top: 100px;
+		text-align: center;
+		border: 1px solid black;
+	}
+	
+	.container-fluid {
+		justify-content: center;
+	}
+	
+	.bild2 {
+		
+		border-radius: 10px;
+	}
+	
+	.bild3 {
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	
+	.bild4 {
+		border-radius: 10px;
+	}
+	
+	
+	.bild5 {
+		border-radius: 10px;
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+}
+
