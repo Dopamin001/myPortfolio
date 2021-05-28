@@ -1,9 +1,28 @@
-.maintext {
+.maintext, .secondtext, .container-fluid {
 	display: flex;
 }
 
 .maintext > p + img {
 	width: 400px;
+	height: 100%;
+}
+
+.secondtext > img {
+	width: 500px;
+	height: 100%;
+}
+
+.blueeye > img {
+	width: 500px;
+	height: 100%;
+}
+
+.thirdtext > div > img {
+	width: 500px;
+	height: 100%;
+}
+.fourthtext > div > img {
+	width: 500px;
 	height: 100%;
 }
 

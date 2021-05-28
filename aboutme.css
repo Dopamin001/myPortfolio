@@ -1,21 +1,25 @@
-body {
+.jumbotron{
 	background-image: url(images/aboutme.jpg);
-	height: 100%;
-	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;;	
+	background-size: cover;
+	
 }
 
-aside {
+section {
 	padding-top: 95px;
+}
+
+.col-7 {
+	background-color: rgb(20,208,246,0.4);;
+	border-radius: 10px;
 }
 
 .maintext {
 	text-align: center;
-	font-size: 1.7em;
+	font-size: 2vw;
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
-	margin-bottom: 0px
+	margin-bottom: 0px;
 }
 
 .linkedin {
@@ -23,7 +27,7 @@ aside {
 	margin-top: 1.5px;
 }
 
-aside > .container {
+section > .container {
 	margin-left: 500px;
 }
 
@@ -90,27 +94,25 @@ aside > .container {
 	}
 }
 
-@media (max-width: 1900px) {
-	aside > .container {
-	margin-left: 300px;
-	}
-}
 
 @media (max-width: 1900px) {
-	aside > .container {
+	section > .container {
 	margin-left: 300px;
 	}
 }
 
 @media (max-width: 1500px) {
-	aside > .container {
+	section > .container {
 	margin-left: 100px;
 	}
 }
 
 @media (max-width: 1000px) {
-	aside > .container {
+	section > .container {
 	margin-left: 0px;
+	}
+	.maintext {
+		font-size: 4vw;
 	}
 }
 
@@ -121,10 +123,14 @@ aside > .container {
 	}
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 1000px) {
 	.linkedin {
-		margin-left: 220px; 
+		margin-left: 180px;
 		margin-top: 1.5px
+	}
+	.maintext {
+		font-size: 2.5vw;
+		margin-right: 100px;
 	}
 }
 
@@ -133,12 +139,20 @@ aside > .container {
 		margin-left: 150px; 
 		margin-top: 1.5px
 	}
+	.maintext {
+		font-size: 4vw;
+	}
 }
 
 @media (max-width: 425px) {
-	.linkedin {
-		margin-left: 70px; 
-		margin-top: 1.5px
+	.jumbotron{
+		background-image: url(images/aboutme2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.maintext {
+		font-size: 6vw;
 	}
 }
 

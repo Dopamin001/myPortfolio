@@ -49,7 +49,7 @@ section {
 
 .yogaimage {
 	padding-top: 10px;
-	padding-bottom: 650px;
+	padding-bottom: 580px;
 	background-image: url(images/yogapic.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -423,5 +423,13 @@ nav a:hover {
 
 	h3 + p  {
 	font-size: 100%;
+	}
 }
+
+@media(max-width: 320px) {
+	.yogaimage {
+		padding-top: 10px;
+		padding-bottom: 100px;
+	}
+
 }
