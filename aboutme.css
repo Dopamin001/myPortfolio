@@ -47,9 +47,9 @@ ul {
 	margin-left: 10px;
 }
 
-.linkedin {
-	margin-left: 420px; 
-	margin-top: 1.5px;
+.icons {
+	margin-left: 47%;
+	margin-right: 53%;
 }
 
 
@@ -245,9 +245,7 @@ nav a:hover {
 		list-style: inside;
 	  }
 	
-	.icons {
-		margin-right: 400px;
-	}
+	
 	
 	.factsaboutme {
 		margin-top: 50px;
@@ -286,9 +284,8 @@ nav a:hover {
 		list-style: inside;
 	  }
 	
-	.icons {
-		margin-right: 300px;
-	}
+
+
 	
 	.factsaboutme {
 		margin-top: 50px;
@@ -327,9 +324,6 @@ nav a:hover {
 		list-style: inside;
 	  }
 	
-	  .linkedin {
-		margin-left: 300px;
-	}
 	
 	.factsaboutme {
 		margin-top: 50px;
@@ -363,6 +357,11 @@ nav a:hover {
     	margin-right: 0px;
 	}
 
+	.icons {
+		margin-left: 40%;
+		margin-right: 60%;
+	}
+
 	
 	h3 {
 		text-align: center;
@@ -373,13 +372,7 @@ nav a:hover {
 		list-style: inside;
 	  }
 	
-	.icons {
-		margin-right: 0px;
-	}
 
-	.linkedin {
-		margin-left: 150px;
-	}
 	
 	.factsaboutme {
 		margin-top: 50px;
@@ -418,14 +411,7 @@ nav a:hover {
 		text-align: center;
 		list-style: inside;
 	  }
-	
-	.icons {
-		margin-right: 0px;
-	}
 
-	.linkedin {
-		margin-left: 130px;
-	}
 	
 	.factsaboutme {
 		margin-top: 50px;
@@ -466,13 +452,6 @@ nav a:hover {
 		list-style: inside;
 	  }
 	
-	.icons {
-		margin-right: 0px;
-	}
-
-	.linkedin {
-		margin-left: 100px;
-	}
 	
 	.factsaboutme {
 		margin-top: 50px;
