@@ -24,6 +24,15 @@ body {
 	
 }
 
+/* .border-bottom:after {
+	content: "";
+    display: block; 
+    margin: 0 auto;
+    width: 20%; /
+    padding-top: 20px;
+    border-bottom: 1px solid black; 
+} */
+
 .nav-bar:hover {
 	font-size: 170%;
 	color: black;
